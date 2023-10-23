@@ -1,0 +1,156 @@
+@import url('./main-layout.css');
+/* about-us-view.css */
+/* home-view.css */
+.home-view {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 24px;
+    color: #A98600;
+    margin-bottom: 10px;
+}
+
+.home-description {
+    font-size: 18px;
+    color: #A98600;
+    margin: 20px 10%;
+}
+
+.home-image {
+    width: 50%;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* contact-view.css */
+.contact-view {
+    background-color: #e7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 24px;
+    color: #A98600;
+    margin-bottom: 10px;
+}
+
+.contact-content {
+    font-size: 18px;
+    color: #A98600;
+}
+/* service-view.css */
+.service-view {
+    background-color: #f8e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-content {
+    font-size: 18px;
+    color: #666;
+}
+/* home-view.css */
+.home-view {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.aboutButton {
+    background-color: #A98600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #005a9e;
+}
+
+/* Increase the row height for the grid */
+.my-custom-row {
+    height: 50px; /* Adjust the height as needed */
+}
+
+.home-view{
+      background-image: url('logo.jpg');
+     background-size: cover; /* Cover the entire viewport */
+     background-position: center center; /* Center the image horizontally and vertically */
+     background-attachment: fixed; /* Fixed background, doesn't scroll with content */
+ }
+/* Body styling */
+body {
+    background-color: #f2f2f2; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header-container {
+    background-color: #FFBF00; /* Blue background color for the header bar */
+    color: #fff; /* Text color for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Form and operating hours sections */
+.vertical-layout {
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    border: 1px solid #ccc; /* Gray border for sections */
+    border-radius: 10px; /* Rounded corners for sections */
+    margin-top: 20px;
+}
+
+/* Social media icons */
+.horizontal-layout {
+    justify-content: flex-end; /* Align icons to the right */
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 24px; /* Icon size */
+    margin-right: 10px;
+    color: #0077b6; /* Blue color for icons */
+}
+
+/* styles.css (or your custom CSS file) */
+
+.black-button {
+    color: black;
+}
+
+.home-view{
+      background-image: url('landing.jpeg');
+     background-position: center center; /* Center the image horizontally and vertically */
+     background-attachment: fixed; /* Fixed background, doesn't scroll with content */
+ }
+.contact-view{
+      background-image: url('images.png');
+     background-size: cover; /* Cover the entire viewport */
+     background-position: center center; /* Center the image horizontally and vertically */
+     background-attachment: fixed; /* Fixed background, doesn't scroll with content */
+ }
